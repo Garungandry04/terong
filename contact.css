@@ -1,0 +1,38 @@
+nav {
+    font-style: inherit;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 30px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 6px #bebebe, -10px -10px 6px #ffffff;
+    
+}
+
+/* .row {
+    font-style: inherit;
+    font-weight: 30px;
+    background: #e0e0e0;
+    margin: 5px;
+    height: 50px;
+    margin-top: 5px;
+    
+} */
+
+ li:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.3),
+      0 10px 30px rgba(0, 0, 0, 0.3), 0 10px 3px -3px rgba(0, 0, 0, 0.04);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.3),
+      0 10px 30px rgba(0, 0, 0, 0.3), 0 10px 3px -3px rgba(0, 0, 0, 0.04);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+  }
